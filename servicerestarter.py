@@ -29,10 +29,10 @@ def service5 ():
     os.system('cmd /c "net stop [service] & net start [service]"')
 
 ################# New Service Command Template ######################
-#																	#
-#def service ():													#
+#                                                                   #
+#def service ():                                                    #
 #    os.system('cmd /c "net stop [service] & net start [service]"') #
-#																	#
+#                                                                   #
 #####################################################################
 
 
@@ -57,10 +57,10 @@ button5 = tk.Button(text='      Serivce5      ', command=service5, bg='green', f
 canvas1.create_window(150, 150, window=button5)
 
 ####################################################### New Button Template ###########################################################
-# 																																	  #
-#button = tk.Button(text='          Service           ', command=service, bg='green', fg='white', font=('helvetica', 12, 'bold'))	  #
-#canvas1.create_window(175, 400, window=button)																					      #
-# 																																	  #
+#                                                                                                                                     #
+#button = tk.Button(text='          Service           ', command=service, bg='green', fg='white', font=('helvetica', 12, 'bold'))     #
+#canvas1.create_window(175, 400, window=button)                                                                                       #
+#                                                                                                                                     #
 #######################################################################################################################################
 
 
