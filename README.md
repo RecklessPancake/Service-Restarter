@@ -6,3 +6,5 @@ This script was meant to be used by the end user to fix common issues before cal
 Script was also used by helpdesk technicians to speed up more tedious processes.
 
 Script uses a simple Tkinter GUI with buttons that restart defined services. Script also uses win32gui to hide the console that would pop up with the GUI
+
+EXE executable was created using Py2EXE tools
